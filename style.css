@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+    background-image: url('bg.jpg');
+}
+
+#canvas{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#GO{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    border: none;
+    font-size: 60px;
+    font-family: fantasy;
+}
